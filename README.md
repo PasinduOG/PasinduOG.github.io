@@ -1,1 +1,1 @@
-pubg.github.io
+ogpasindu.github.io
