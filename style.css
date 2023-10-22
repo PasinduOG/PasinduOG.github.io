@@ -92,14 +92,21 @@ ul{
     margin-top: 180px;
 }
 
-#background {
+#background1 {
     background: url(klipartz.com.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#card {
+#background2 {
+    background: url(pubg\ wallpaper\ hd\ 4k.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
