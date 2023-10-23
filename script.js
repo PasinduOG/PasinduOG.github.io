@@ -11,5 +11,4 @@ var bg = new Audio ("PUBGmix.mp3");
 
 function login() {
     window.location = "1.html";
-    bg.play();
 }
