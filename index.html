@@ -18,9 +18,9 @@
 
         <audio autoplay="" src="My_Hearts_Will_Full.mp3"></audio>
 
-        <div class="row bg-dark p-4 bg-opacity-50">
+        <div class="row bg-dark p-4">
             <div class="col-12 d-flex justify-content-center">
-                <img src="2256138.png" width="200px">
+                <img src="2256138.png" width="150px">
             </div>
         </div>
 
@@ -39,12 +39,16 @@
 
                             <div class="col-12 d-grid">
 
+                                <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated();">
+
                                 <div class="col-12 p-3">
-                                    <input type="text" class="form-control" placeholder="Email ID">
+                                    <input autocomplete="off" type="text" class="form-control" placeholder="Email ID" id="email">
+                                    <div id="email_error">Please Enter your Email ID</div>
                                 </div>
 
                                 <div class="col-12 p-3">
-                                    <input type="password" class="form-control" placeholder="Password">
+                                    <input type="password" class="form-control" placeholder="Password" id="password">
+                                    <div id="pass_error">Please Enter your Password</div>
                                 </div>
 
                             </div>
@@ -61,8 +65,10 @@
                             </div>
 
                             <div class="col-12 mt-4 d-flex justify-content-center">
-                                <button onclick="login();" class="col-8 btn btn-outline-warning">Login</button>
+                                <button type="submit" class="col-8 btn btn-outline-warning">Login</button>
                             </div>
+
+                        </form>
 
                             <div class="col-12 mt-2 d-flex justify-content-center">
                                 <span>Or</span>
@@ -186,6 +192,12 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12 d-flex justify-content-center">
+                        <p class="text-white">PUBG BATTLEGROUNDS&trade; | Copyright &copy; Krafton&trade; International (South Korea) | All Rights Reserved</p>
                     </div>
                 </div>
             </div>
