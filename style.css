@@ -119,3 +119,29 @@ body {
     width: 100%;
     font-family: "winner";
 }
+
+.login_form #email_error {
+	margin-top: 5px;
+	font-size: 18px;
+	width: 345px;
+	color: #24262b;
+	background: rgba(243, 171, 0, 255);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #24262b;
+	display: none;
+}
+
+.login_form #pass_error {
+	margin-top: 5px;
+	font-size: 18px;
+	width: 345px;
+	color: #24262b;
+	background: rgba(243, 171, 0, 255);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #24262b;
+	display: none;
+}
