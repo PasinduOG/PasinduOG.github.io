@@ -1,15 +1,3 @@
-// function change() {
-//     var loginbox = document.getElementById("loginbox");
-//     var registerbox = document.getElementById("registerbox");
-
-//     loginbox.classList.toggle("d-none");
-//     registerbox.classList.toggle("d-none");
-
-// }
-
-let audio = new Audio("My_Hearts_Will_Full.mp3");
-audio.play();
-
 var email = document.forms["form"]["email"];
 var password = document.forms["form"]["password"];
 
