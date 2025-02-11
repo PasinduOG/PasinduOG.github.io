@@ -7,6 +7,9 @@
 
 // }
 
+let audio = new Audio("My_Hearts_Will_Full.mp3");
+audio.play();
+
 var email = document.forms["form"]["email"];
 var password = document.forms["form"]["password"];
 
